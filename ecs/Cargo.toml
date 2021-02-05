@@ -1,0 +1,15 @@
+[package]
+name = "ecs"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.anymap]
+path = "../anymap"
+version = "0.12.1"
+
+[dependencies]
+glutin = "0.24.1"
+
+[dependencies.generational-arena]
+path = "../generational-arena"
+version = "0.2.8"

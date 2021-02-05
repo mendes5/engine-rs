@@ -1,0 +1,12 @@
+[submodule "generational-arena"]
+	path = generational-arena
+	url = git@github.com:mendes5/generational-arena.git
+[submodule "deno"]
+	path = deno
+	url = git@github.com:mendes5/deno.git
+[submodule "anymap"]
+	path = anymap
+	url = git@github.com:mendes5/anymap.git
+[submodule "bulletrs"]
+	path = bulletrs
+	url = git@github.com:not-fl3/bulletrs.git
