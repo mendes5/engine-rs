@@ -1,0 +1,2 @@
+[workspace]
+members = ["anymap", "bulletrs", "deno", "ecs", "game", "generational-arena", "renderer", "math"]

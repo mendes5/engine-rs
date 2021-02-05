@@ -1,0 +1,41 @@
+[
+{
+	"filename": "box.png",
+	"frame": {"x":0,"y":656,"w":500,"h":500},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":500},
+	"sourceSize": {"w":500,"h":500}
+},
+{
+	"filename": "metal.jpg",
+	"frame": {"x":0,"y":256,"w":571,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":571,"h":400},
+	"sourceSize": {"w":571,"h":400}
+},
+{
+	"filename": "normal.jpg",
+	"frame": {"x":225,"y":0,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+{
+	"filename": "stone.jpeg",
+	"frame": {"x":0,"y":0,"w":225,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":225},
+	"sourceSize": {"w":225,"h":225}
+},
+{
+	"filename": "wood.jpg",
+	"frame": {"x":0,"y":1156,"w":626,"h":626},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":626,"h":626},
+	"sourceSize": {"w":626,"h":626}
+}]
