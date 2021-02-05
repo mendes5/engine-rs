@@ -47,7 +47,7 @@ It uses [Skia](https://skia.org/) (the graphics engine for Google Chrome) for ba
 
 ## ECS Implementation
 
-There is a basic Entity Component System implementation. Although it is not the fastest implementation out there ([build](./images/build.png), [update](./images/update.png)) it's has a very nice syntax, and is easy to use IMO.
+There is a basic Entity Component System implementation. Although it is not the fastest implementation out there (see `cold_ecs` in [build](./images/build.png), [update](./images/update.png)) it's has a very nice syntax, and is easy to use IMO.
 
 ## Windowing and OpenGL bindings
 
