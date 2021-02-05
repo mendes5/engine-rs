@@ -1,0 +1,26 @@
+[package]
+name = "renderer"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+
+[dependencies.math]
+path = "../math"
+version = "0.1.0"
+
+[dependencies.generational-arena]
+path = "../generational-arena"
+version = "0.2.8"
+
+[dependencies]
+glutin = "0.24.1"
+winit = "0.22.2"
+image = "0.21"
+skia-safe = "0"
+indextree = "4.3.0"
+regex = "1"
+lazy_static = "1.4.0"
+
+[build-dependencies]
+gl_generator = "0.14"
+
