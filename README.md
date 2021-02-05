@@ -1,6 +1,15 @@
-### EngineRS (unnamed engine)
+### EngineRS
 
 Just a experimental WIP game engine im building for fun and for learning Rust.
+It doesn't have an actual name..
+
+<center>
+
+![](./images/screenshot.png)
+_it's so cool when it doesn't segfaults_
+
+</center>
+
 
 ### Tech:
 
