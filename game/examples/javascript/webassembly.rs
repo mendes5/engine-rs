@@ -19,7 +19,7 @@ fn main() {
       const b = instance.exports.add(4, 4);
       const c = instance.exports.add(a, b);
 
-      Deno.core.print("'C' calculated from WebAssembly is: " + c);
+      runtime.print("'C' calculated from WebAssembly is: " + c);
 "#,
     )
     .unwrap();

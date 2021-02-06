@@ -8,7 +8,7 @@ fn main() {
     .execute(
       "<init>",
       r#"
-Deno.core.print("Hello world from v8");
+runtime.print("Hello world from v8");
 "#,
     )
     .unwrap();

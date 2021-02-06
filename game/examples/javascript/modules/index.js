@@ -3,17 +3,17 @@ import { Vec2, Vec3 } from './vec.js';
 import Default from './subfolder/index.js';
 
 import('./dynamic.js').then((x) => {
-  Deno.core.print("Dynamic import resolved " + x.e);
-  Deno.core.print("\n");
+  runtime.print("Dynamic import resolved " + x.date);
+  runtime.print("\n");
 });
 
-Deno.core.print(Default);
-Deno.core.print("\n");
+runtime.print(Default);
+runtime.print("\n");
 
-Deno.core.print(JSON.stringify(Vec2));
-Deno.core.print("\n");
+runtime.print(JSON.stringify(Vec2));
+runtime.print("\n");
 
-Deno.core.print(JSON.stringify(Vec3));
-Deno.core.print("\n");
+runtime.print(JSON.stringify(Vec3));
+runtime.print("\n");
 
 

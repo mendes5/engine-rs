@@ -1,8 +1,8 @@
 use crate::modules::{
     textured::Sprite,
 };
-use math::{Vec3, Vec4};
-use super::vertex::{Vertex, Vertex2};
+use math::Vec3;
+use super::vertex::Vertex2;
 
 pub fn build_block_mesh(sprites: &Vec<Sprite>, pos: Vec3, block_index: usize) -> Option<(Vec<Vertex2>, Vec<i32>)> {
     let mut new_data = Vec::<Vertex2>::new();

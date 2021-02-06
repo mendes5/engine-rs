@@ -25,8 +25,8 @@ const toLog = [
 ];
 
 toLog.forEach((item) => {
-  Deno.core.print(item);
-  Deno.core.print("\n");
+  runtime.print(item);
+  runtime.print("\n");
 });
 
 "#,
